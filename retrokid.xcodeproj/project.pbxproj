@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		261535105FFE78DE556A50B0 /* Pods_retrokidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB826A0511F9BA513B1DAF /* Pods_retrokidTests.framework */; };
+		60F7C86D65C97BB08703440D /* Pods_retrokid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDBDD8F883C5C5947347A52 /* Pods_retrokid.framework */; };
+		BD078D431F7BA02E000EBA28 /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD078D421F7BA02E000EBA28 /* WinScene.sks */; };
+		BD078D451F7BA1A2000EBA28 /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD078D441F7BA1A2000EBA28 /* WinScene.swift */; };
+		BD0840F61F7CDAA800F2D297 /* CameraGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0840F51F7CDAA800F2D297 /* CameraGO.swift */; };
+		BD2948621F6FAE580084B1A5 /* PlayerHpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2948611F6FAE580084B1A5 /* PlayerHpBar.swift */; };
+		BD41E6A41F778BB000F60CC2 /* MobHpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E6A31F778BB000F60CC2 /* MobHpBar.swift */; };
+		BD7273461F2217AF00DD7562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7273451F2217AF00DD7562 /* AppDelegate.swift */; };
+		BD72734E1F2217AF00DD7562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72734D1F2217AF00DD7562 /* ViewController.swift */; };
+		BD7273501F2217AF00DD7562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD72734F1F2217AF00DD7562 /* Assets.xcassets */; };
+		BD7273531F2217AF00DD7562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7273511F2217AF00DD7562 /* Main.storyboard */; };
+		BD72735E1F2217B000DD7562 /* retrokidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72735D1F2217B000DD7562 /* retrokidTests.swift */; };
+		BDBE84CD1F651BBB00C555A5 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE84CC1F651BBB00C555A5 /* PlayerController.swift */; };
+		BDBE84D21F65253300C555A5 /* PlayerGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE84D11F65253300C555A5 /* PlayerGO.swift */; };
+		BDD4B27E1F3671BE0014E8A4 /* Zar6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4B27C1F3671BE0014E8A4 /* Zar6.swift */; };
+		BDD4B27F1F3671BE0014E8A4 /* Zar20.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4B27D1F3671BE0014E8A4 /* Zar20.swift */; };
+		BDE163A81F6A536B003A5DBC /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE163A71F6A536B003A5DBC /* JSONObject.swift */; };
+		BDE80E801F691051004FF25F /* MobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE80E7F1F691051004FF25F /* MobController.swift */; };
+		BDE80E821F6929F6004FF25F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE80E811F6929F6004FF25F /* Constants.swift */; };
+		BDE80E841F69624A004FF25F /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE80E831F69624A004FF25F /* GameData.swift */; };
+		BDEA6E271F65692100E968A8 /* MobGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA6E261F65692100E968A8 /* MobGO.swift */; };
+		BDF6A1D01F665A440074EF38 /* RandomMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6A1CF1F665A440074EF38 /* RandomMovement.swift */; };
+		BDF9F2761F3D6B08006E5BE8 /* TestScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDF9F2701F3D6B08006E5BE8 /* TestScene.sks */; };
+		BDF9F2771F3D6B08006E5BE8 /* TestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9F2711F3D6B08006E5BE8 /* TestScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD72735A1F2217B000DD7562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD72733A1F2217AF00DD7562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD7273411F2217AF00DD7562;
+			remoteInfo = retrokid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FA6250C56CBD312122C61A0 /* Pods-retrokidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokidTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests.release.xcconfig"; sourceTree = "<group>"; };
+		68970F2E70F4A2A330C4EBFD /* Pods-retrokid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokid.release.xcconfig"; path = "Pods/Target Support Files/Pods-retrokid/Pods-retrokid.release.xcconfig"; sourceTree = "<group>"; };
+		9C58026DF5C831B73FC6756F /* Pods-retrokidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokidTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B345748CD8B30154C0F16C78 /* Pods-retrokid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-retrokid/Pods-retrokid.debug.xcconfig"; sourceTree = "<group>"; };
+		BD078D421F7BA02E000EBA28 /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
+		BD078D441F7BA1A2000EBA28 /* WinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
+		BD0840F51F7CDAA800F2D297 /* CameraGO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraGO.swift; sourceTree = "<group>"; };
+		BD2948611F6FAE580084B1A5 /* PlayerHpBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerHpBar.swift; sourceTree = "<group>"; };
+		BD41E6A31F778BB000F60CC2 /* MobHpBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobHpBar.swift; sourceTree = "<group>"; };
+		BD7273421F2217AF00DD7562 /* retrokid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retrokid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7273451F2217AF00DD7562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD72734D1F2217AF00DD7562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD72734F1F2217AF00DD7562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD7273521F2217AF00DD7562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD7273541F2217AF00DD7562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7273591F2217B000DD7562 /* retrokidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = retrokidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD72735D1F2217B000DD7562 /* retrokidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retrokidTests.swift; sourceTree = "<group>"; };
+		BD72735F1F2217B000DD7562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBE84CC1F651BBB00C555A5 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		BDBE84D11F65253300C555A5 /* PlayerGO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerGO.swift; sourceTree = "<group>"; };
+		BDD4B27C1F3671BE0014E8A4 /* Zar6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zar6.swift; sourceTree = "<group>"; };
+		BDD4B27D1F3671BE0014E8A4 /* Zar20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zar20.swift; sourceTree = "<group>"; };
+		BDE163A71F6A536B003A5DBC /* JSONObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONObject.swift; sourceTree = "<group>"; };
+		BDE80E7F1F691051004FF25F /* MobController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobController.swift; sourceTree = "<group>"; };
+		BDE80E811F6929F6004FF25F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDE80E831F69624A004FF25F /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameData.swift; path = ../GameData.swift; sourceTree = "<group>"; };
+		BDEA6E261F65692100E968A8 /* MobGO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobGO.swift; sourceTree = "<group>"; };
+		BDF6A1CF1F665A440074EF38 /* RandomMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomMovement.swift; sourceTree = "<group>"; };
+		BDF9F2701F3D6B08006E5BE8 /* TestScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestScene.sks; sourceTree = "<group>"; };
+		BDF9F2711F3D6B08006E5BE8 /* TestScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScene.swift; sourceTree = "<group>"; };
+		CBFB826A0511F9BA513B1DAF /* Pods_retrokidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retrokidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDBDD8F883C5C5947347A52 /* Pods_retrokid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retrokid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD72733F1F2217AF00DD7562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F7C86D65C97BB08703440D /* Pods_retrokid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7273561F2217B000DD7562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261535105FFE78DE556A50B0 /* Pods_retrokidTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFF3337B78440DC00DB164F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B345748CD8B30154C0F16C78 /* Pods-retrokid.debug.xcconfig */,
+				68970F2E70F4A2A330C4EBFD /* Pods-retrokid.release.xcconfig */,
+				9C58026DF5C831B73FC6756F /* Pods-retrokidTests.debug.xcconfig */,
+				1FA6250C56CBD312122C61A0 /* Pods-retrokidTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69EEA0257AB273CA17B61E31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDDBDD8F883C5C5947347A52 /* Pods_retrokid.framework */,
+				CBFB826A0511F9BA513B1DAF /* Pods_retrokidTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD7273391F2217AF00DD7562 = {
+			isa = PBXGroup;
+			children = (
+				BD7273441F2217AF00DD7562 /* retrokid */,
+				BD72735C1F2217B000DD7562 /* retrokidTests */,
+				BD7273431F2217AF00DD7562 /* Products */,
+				0DFF3337B78440DC00DB164F /* Pods */,
+				69EEA0257AB273CA17B61E31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD7273431F2217AF00DD7562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD7273421F2217AF00DD7562 /* retrokid.app */,
+				BD7273591F2217B000DD7562 /* retrokidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD7273441F2217AF00DD7562 /* retrokid */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2E0CC1F500DB20028F0C5 /* controller */,
+				BDD4B27B1F36719C0014E8A4 /* model */,
+				BDF9F26F1F3D6B08006E5BE8 /* scene */,
+				BDF9F26B1F3D6A7A006E5BE8 /* Main */,
+			);
+			path = retrokid;
+			sourceTree = "<group>";
+		};
+		BD72735C1F2217B000DD7562 /* retrokidTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD72735D1F2217B000DD7562 /* retrokidTests.swift */,
+				BD72735F1F2217B000DD7562 /* Info.plist */,
+			);
+			path = retrokidTests;
+			sourceTree = "<group>";
+		};
+		BD8DF1A31F6FB71E0059286A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BD2948611F6FAE580084B1A5 /* PlayerHpBar.swift */,
+				BD41E6A31F778BB000F60CC2 /* MobHpBar.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BDA2E0CC1F500DB20028F0C5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE84CC1F651BBB00C555A5 /* PlayerController.swift */,
+				BDE80E7F1F691051004FF25F /* MobController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BDBE84D01F65251100C555A5 /* GOs */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE84D11F65253300C555A5 /* PlayerGO.swift */,
+				BDEA6E261F65692100E968A8 /* MobGO.swift */,
+				BD0840F51F7CDAA800F2D297 /* CameraGO.swift */,
+			);
+			name = GOs;
+			sourceTree = "<group>";
+		};
+		BDD4B27B1F36719C0014E8A4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BDE163A71F6A536B003A5DBC /* JSONObject.swift */,
+				BDE80E831F69624A004FF25F /* GameData.swift */,
+				BD8DF1A31F6FB71E0059286A /* UI */,
+				BDBE84D01F65251100C555A5 /* GOs */,
+				BDD4B2841F368A010014E8A4 /* randomization */,
+			);
+			name = model;
+			path = models;
+			sourceTree = "<group>";
+		};
+		BDD4B2841F368A010014E8A4 /* randomization */ = {
+			isa = PBXGroup;
+			children = (
+				BDD4B27C1F3671BE0014E8A4 /* Zar6.swift */,
+				BDD4B27D1F3671BE0014E8A4 /* Zar20.swift */,
+				BDF6A1CF1F665A440074EF38 /* RandomMovement.swift */,
+			);
+			name = randomization;
+			sourceTree = "<group>";
+		};
+		BDF9F26B1F3D6A7A006E5BE8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BD7273451F2217AF00DD7562 /* AppDelegate.swift */,
+				BD72734D1F2217AF00DD7562 /* ViewController.swift */,
+				BDE80E811F6929F6004FF25F /* Constants.swift */,
+				BD72734F1F2217AF00DD7562 /* Assets.xcassets */,
+				BD7273511F2217AF00DD7562 /* Main.storyboard */,
+				BD7273541F2217AF00DD7562 /* Info.plist */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BDF9F26F1F3D6B08006E5BE8 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				BDF9F2701F3D6B08006E5BE8 /* TestScene.sks */,
+				BDF9F2711F3D6B08006E5BE8 /* TestScene.swift */,
+				BD078D421F7BA02E000EBA28 /* WinScene.sks */,
+				BD078D441F7BA1A2000EBA28 /* WinScene.swift */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD7273411F2217AF00DD7562 /* retrokid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7273621F2217B000DD7562 /* Build configuration list for PBXNativeTarget "retrokid" */;
+			buildPhases = (
+				55F02E951BCF05B85D665F0A /* [CP] Check Pods Manifest.lock */,
+				BD72733E1F2217AF00DD7562 /* Sources */,
+				BD72733F1F2217AF00DD7562 /* Frameworks */,
+				BD7273401F2217AF00DD7562 /* Resources */,
+				902EC758414B6FC56E3F6EA9 /* [CP] Embed Pods Frameworks */,
+				8F0088E86B6AA31BAAE8E122 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = retrokid;
+			productName = retrokid;
+			productReference = BD7273421F2217AF00DD7562 /* retrokid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD7273581F2217B000DD7562 /* retrokidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7273651F2217B000DD7562 /* Build configuration list for PBXNativeTarget "retrokidTests" */;
+			buildPhases = (
+				86EFAE76899507CC4560B20C /* [CP] Check Pods Manifest.lock */,
+				BD7273551F2217B000DD7562 /* Sources */,
+				BD7273561F2217B000DD7562 /* Frameworks */,
+				BD7273571F2217B000DD7562 /* Resources */,
+				3F421FD2DB013FDA7F985980 /* [CP] Embed Pods Frameworks */,
+				0DECCDB200930F78EE6BE5CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD72735B1F2217B000DD7562 /* PBXTargetDependency */,
+			);
+			name = retrokidTests;
+			productName = retrokidTests;
+			productReference = BD7273591F2217B000DD7562 /* retrokidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD72733A1F2217AF00DD7562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "efe ertugrul";
+				TargetAttributes = {
+					BD7273411F2217AF00DD7562 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U5Y7Y39J6K;
+						ProvisioningStyle = Automatic;
+					};
+					BD7273581F2217B000DD7562 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U5Y7Y39J6K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD7273411F2217AF00DD7562;
+					};
+				};
+			};
+			buildConfigurationList = BD72733D1F2217AF00DD7562 /* Build configuration list for PBXProject "retrokid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD7273391F2217AF00DD7562;
+			productRefGroup = BD7273431F2217AF00DD7562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD7273411F2217AF00DD7562 /* retrokid */,
+				BD7273581F2217B000DD7562 /* retrokidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD7273401F2217AF00DD7562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7273501F2217AF00DD7562 /* Assets.xcassets in Resources */,
+				BDF9F2761F3D6B08006E5BE8 /* TestScene.sks in Resources */,
+				BD7273531F2217AF00DD7562 /* Main.storyboard in Resources */,
+				BD078D431F7BA02E000EBA28 /* WinScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7273571F2217B000DD7562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DECCDB200930F78EE6BE5CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F421FD2DB013FDA7F985980 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55F02E951BCF05B85D665F0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86EFAE76899507CC4560B20C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0088E86B6AA31BAAE8E122 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokid/Pods-retrokid-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902EC758414B6FC56E3F6EA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokid/Pods-retrokid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD72733E1F2217AF00DD7562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE84CD1F651BBB00C555A5 /* PlayerController.swift in Sources */,
+				BDF6A1D01F665A440074EF38 /* RandomMovement.swift in Sources */,
+				BDD4B27E1F3671BE0014E8A4 /* Zar6.swift in Sources */,
+				BDF9F2771F3D6B08006E5BE8 /* TestScene.swift in Sources */,
+				BD41E6A41F778BB000F60CC2 /* MobHpBar.swift in Sources */,
+				BDD4B27F1F3671BE0014E8A4 /* Zar20.swift in Sources */,
+				BDE163A81F6A536B003A5DBC /* JSONObject.swift in Sources */,
+				BD078D451F7BA1A2000EBA28 /* WinScene.swift in Sources */,
+				BDE80E821F6929F6004FF25F /* Constants.swift in Sources */,
+				BDE80E841F69624A004FF25F /* GameData.swift in Sources */,
+				BDE80E801F691051004FF25F /* MobController.swift in Sources */,
+				BD72734E1F2217AF00DD7562 /* ViewController.swift in Sources */,
+				BDBE84D21F65253300C555A5 /* PlayerGO.swift in Sources */,
+				BD2948621F6FAE580084B1A5 /* PlayerHpBar.swift in Sources */,
+				BDEA6E271F65692100E968A8 /* MobGO.swift in Sources */,
+				BD0840F61F7CDAA800F2D297 /* CameraGO.swift in Sources */,
+				BD7273461F2217AF00DD7562 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7273551F2217B000DD7562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD72735E1F2217B000DD7562 /* retrokidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD72735B1F2217B000DD7562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD7273411F2217AF00DD7562 /* retrokid */;
+			targetProxy = BD72735A1F2217B000DD7562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD7273511F2217AF00DD7562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD7273521F2217AF00DD7562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD7273601F2217B000DD7562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD7273611F2217B000DD7562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BD7273631F2217B000DD7562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B345748CD8B30154C0F16C78 /* Pods-retrokid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U5Y7Y39J6K;
+				INFOPLIST_FILE = retrokid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeertugrul.retrokid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD7273641F2217B000DD7562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68970F2E70F4A2A330C4EBFD /* Pods-retrokid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U5Y7Y39J6K;
+				INFOPLIST_FILE = retrokid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeertugrul.retrokid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BD7273661F2217B000DD7562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C58026DF5C831B73FC6756F /* Pods-retrokidTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U5Y7Y39J6K;
+				INFOPLIST_FILE = retrokidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeertugrul.retrokidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retrokid.app/Contents/MacOS/retrokid";
+			};
+			name = Debug;
+		};
+		BD7273671F2217B000DD7562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA6250C56CBD312122C61A0 /* Pods-retrokidTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U5Y7Y39J6K;
+				INFOPLIST_FILE = retrokidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efeertugrul.retrokidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retrokid.app/Contents/MacOS/retrokid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD72733D1F2217AF00DD7562 /* Build configuration list for PBXProject "retrokid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7273601F2217B000DD7562 /* Debug */,
+				BD7273611F2217B000DD7562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7273621F2217B000DD7562 /* Build configuration list for PBXNativeTarget "retrokid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7273631F2217B000DD7562 /* Debug */,
+				BD7273641F2217B000DD7562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7273651F2217B000DD7562 /* Build configuration list for PBXNativeTarget "retrokidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7273661F2217B000DD7562 /* Debug */,
+				BD7273671F2217B000DD7562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD72733A1F2217AF00DD7562 /* Project object */;
+}
