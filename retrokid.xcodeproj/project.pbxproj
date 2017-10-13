@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		261535105FFE78DE556A50B0 /* Pods_retrokidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFB826A0511F9BA513B1DAF /* Pods_retrokidTests.framework */; };
-		60F7C86D65C97BB08703440D /* Pods_retrokid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDBDD8F883C5C5947347A52 /* Pods_retrokid.framework */; };
 		BD078D431F7BA02E000EBA28 /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD078D421F7BA02E000EBA28 /* WinScene.sks */; };
 		BD078D451F7BA1A2000EBA28 /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD078D441F7BA1A2000EBA28 /* WinScene.swift */; };
 		BD0840F61F7CDAA800F2D297 /* CameraGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0840F51F7CDAA800F2D297 /* CameraGO.swift */; };
@@ -44,10 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FA6250C56CBD312122C61A0 /* Pods-retrokidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokidTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests.release.xcconfig"; sourceTree = "<group>"; };
-		68970F2E70F4A2A330C4EBFD /* Pods-retrokid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokid.release.xcconfig"; path = "Pods/Target Support Files/Pods-retrokid/Pods-retrokid.release.xcconfig"; sourceTree = "<group>"; };
-		9C58026DF5C831B73FC6756F /* Pods-retrokidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokidTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B345748CD8B30154C0F16C78 /* Pods-retrokid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retrokid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-retrokid/Pods-retrokid.debug.xcconfig"; sourceTree = "<group>"; };
 		BD078D421F7BA02E000EBA28 /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
 		BD078D441F7BA1A2000EBA28 /* WinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
 		BD0840F51F7CDAA800F2D297 /* CameraGO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraGO.swift; sourceTree = "<group>"; };
@@ -74,8 +68,6 @@
 		BDF6A1CF1F665A440074EF38 /* RandomMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomMovement.swift; sourceTree = "<group>"; };
 		BDF9F2701F3D6B08006E5BE8 /* TestScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestScene.sks; sourceTree = "<group>"; };
 		BDF9F2711F3D6B08006E5BE8 /* TestScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScene.swift; sourceTree = "<group>"; };
-		CBFB826A0511F9BA513B1DAF /* Pods_retrokidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retrokidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDDBDD8F883C5C5947347A52 /* Pods_retrokid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retrokid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F7C86D65C97BB08703440D /* Pods_retrokid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,41 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261535105FFE78DE556A50B0 /* Pods_retrokidTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DFF3337B78440DC00DB164F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B345748CD8B30154C0F16C78 /* Pods-retrokid.debug.xcconfig */,
-				68970F2E70F4A2A330C4EBFD /* Pods-retrokid.release.xcconfig */,
-				9C58026DF5C831B73FC6756F /* Pods-retrokidTests.debug.xcconfig */,
-				1FA6250C56CBD312122C61A0 /* Pods-retrokidTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		69EEA0257AB273CA17B61E31 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CDDBDD8F883C5C5947347A52 /* Pods_retrokid.framework */,
-				CBFB826A0511F9BA513B1DAF /* Pods_retrokidTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BD7273391F2217AF00DD7562 = {
 			isa = PBXGroup;
 			children = (
 				BD7273441F2217AF00DD7562 /* retrokid */,
 				BD72735C1F2217B000DD7562 /* retrokidTests */,
 				BD7273431F2217AF00DD7562 /* Products */,
-				0DFF3337B78440DC00DB164F /* Pods */,
-				69EEA0257AB273CA17B61E31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -240,12 +208,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD7273621F2217B000DD7562 /* Build configuration list for PBXNativeTarget "retrokid" */;
 			buildPhases = (
-				55F02E951BCF05B85D665F0A /* [CP] Check Pods Manifest.lock */,
 				BD72733E1F2217AF00DD7562 /* Sources */,
 				BD72733F1F2217AF00DD7562 /* Frameworks */,
 				BD7273401F2217AF00DD7562 /* Resources */,
-				902EC758414B6FC56E3F6EA9 /* [CP] Embed Pods Frameworks */,
-				8F0088E86B6AA31BAAE8E122 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +225,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD7273651F2217B000DD7562 /* Build configuration list for PBXNativeTarget "retrokidTests" */;
 			buildPhases = (
-				86EFAE76899507CC4560B20C /* [CP] Check Pods Manifest.lock */,
 				BD7273551F2217B000DD7562 /* Sources */,
 				BD7273561F2217B000DD7562 /* Frameworks */,
 				BD7273571F2217B000DD7562 /* Resources */,
-				3F421FD2DB013FDA7F985980 /* [CP] Embed Pods Frameworks */,
-				0DECCDB200930F78EE6BE5CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,99 +301,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0DECCDB200930F78EE6BE5CE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F421FD2DB013FDA7F985980 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokidTests/Pods-retrokidTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55F02E951BCF05B85D665F0A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		86EFAE76899507CC4560B20C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8F0088E86B6AA31BAAE8E122 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokid/Pods-retrokid-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		902EC758414B6FC56E3F6EA9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-retrokid/Pods-retrokid-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD72733E1F2217AF00DD7562 /* Sources */ = {
@@ -582,7 +451,6 @@
 		};
 		BD7273631F2217B000DD7562 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B345748CD8B30154C0F16C78 /* Pods-retrokid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -598,7 +466,6 @@
 		};
 		BD7273641F2217B000DD7562 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68970F2E70F4A2A330C4EBFD /* Pods-retrokid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -614,7 +481,6 @@
 		};
 		BD7273661F2217B000DD7562 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C58026DF5C831B73FC6756F /* Pods-retrokidTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -631,7 +497,6 @@
 		};
 		BD7273671F2217B000DD7562 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FA6250C56CBD312122C61A0 /* Pods-retrokidTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
