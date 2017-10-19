@@ -16,7 +16,7 @@ class PlayerGO : SKSpriteNode
     var movementSpeed : CGFloat = 2
     let attackAnimationSpeed = 0.1
     var moveAnimationSpeed = 0.15
-    var hp : Int = 8
+    var hp : Int = 7
     var defeated : Bool = false
     
     var camera : CameraGO = CameraGO()

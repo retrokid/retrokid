@@ -192,6 +192,10 @@ class PlayerController : NSObject
     func takeDamage()
     {
         player.takeDamage()
+        if player.hp == 0
+        {
+            delegate?.playerDidDefeated()
+        }
     }
 }
 
@@ -201,6 +205,8 @@ protocol PlayerControllerDelegate
     func playerDidAttackWest()
     func playerDidAttackEast()
     func playerDidAttackSouth()
+    func playerDidDefeated()
+
 }
 
 

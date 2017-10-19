@@ -10,8 +10,10 @@ import Foundation
 
 // MARK:- SCENES
 
-let k_test_scene = "TestScene"
+let k_cave_scene = "CaveScene"
+let k_mob_cave_scene = "MobCaveScene"
 let k_win_scene = "WinScene"
+let k_lose_scene = "LoseScene"
 
 // MARK:- ASSET CATALOG
 
@@ -85,6 +87,14 @@ let k_effect_smoke_1_3 = "effect_smoke_1_3"
 let k_scene_battle_forest = "scene_battle_forest"
 
 // MARK:-- UI
+
+let k_ui_player_hp_bar_1 = "ui_player_hp_bar_1"
+let k_ui_player_hp_bar_2 = "ui_player_hp_bar_2"
+let k_ui_player_hp_bar_3 = "ui_player_hp_bar_3"
+let k_ui_player_hp_bar_4 = "ui_player_hp_bar_4"
+let k_ui_player_hp_bar_5 = "ui_player_hp_bar_5"
+let k_ui_player_hp_bar_6 = "ui_player_hp_bar_6"
+let k_ui_player_hp_bar_7 = "ui_player_hp_bar_7"
 
 let k_ui_world_menu_top_left_0 = "ui_world_menu_top_left_0"
 let k_ui_world_menu_top_left_1 = "ui_world_menu_top_left_1"

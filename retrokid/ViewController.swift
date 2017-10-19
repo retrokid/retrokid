@@ -33,9 +33,9 @@ class ViewController: NSViewController
 //            }
 //        }
         
-        if let scene = GKScene(fileNamed: k_test_scene)
+        if let scene = GKScene(fileNamed: k_cave_scene)
         {
-            if let sceneNode = scene.rootNode as! TestScene?
+            if let sceneNode = scene.rootNode as! CaveScene?
             {
                 sceneNode.scaleMode = .aspectFit
                 if let view = self.skView

@@ -10,6 +10,8 @@
 		BD078D431F7BA02E000EBA28 /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD078D421F7BA02E000EBA28 /* WinScene.sks */; };
 		BD078D451F7BA1A2000EBA28 /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD078D441F7BA1A2000EBA28 /* WinScene.swift */; };
 		BD0840F61F7CDAA800F2D297 /* CameraGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0840F51F7CDAA800F2D297 /* CameraGO.swift */; };
+		BD08E26F1F98F5E00089ECFF /* LoseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BD08E26E1F98F5E00089ECFF /* LoseScene.sks */; };
+		BD08E2711F98F5F00089ECFF /* LoseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD08E2701F98F5F00089ECFF /* LoseScene.swift */; };
 		BD2948621F6FAE580084B1A5 /* PlayerHpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2948611F6FAE580084B1A5 /* PlayerHpBar.swift */; };
 		BD41E6A41F778BB000F60CC2 /* MobHpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E6A31F778BB000F60CC2 /* MobHpBar.swift */; };
 		BD7273461F2217AF00DD7562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7273451F2217AF00DD7562 /* AppDelegate.swift */; };
@@ -19,6 +21,8 @@
 		BD72735E1F2217B000DD7562 /* retrokidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72735D1F2217B000DD7562 /* retrokidTests.swift */; };
 		BDBE84CD1F651BBB00C555A5 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE84CC1F651BBB00C555A5 /* PlayerController.swift */; };
 		BDBE84D21F65253300C555A5 /* PlayerGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE84D11F65253300C555A5 /* PlayerGO.swift */; };
+		BDD0BF4B1F98E9C70097A565 /* MobCaveScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDD0BF491F98E9C70097A565 /* MobCaveScene.sks */; };
+		BDD0BF4C1F98E9C70097A565 /* MobCaveScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0BF4A1F98E9C70097A565 /* MobCaveScene.swift */; };
 		BDD4B27E1F3671BE0014E8A4 /* Zar6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4B27C1F3671BE0014E8A4 /* Zar6.swift */; };
 		BDD4B27F1F3671BE0014E8A4 /* Zar20.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD4B27D1F3671BE0014E8A4 /* Zar20.swift */; };
 		BDE163A81F6A536B003A5DBC /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE163A71F6A536B003A5DBC /* JSONObject.swift */; };
@@ -27,8 +31,8 @@
 		BDE80E841F69624A004FF25F /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE80E831F69624A004FF25F /* GameData.swift */; };
 		BDEA6E271F65692100E968A8 /* MobGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA6E261F65692100E968A8 /* MobGO.swift */; };
 		BDF6A1D01F665A440074EF38 /* RandomMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6A1CF1F665A440074EF38 /* RandomMovement.swift */; };
-		BDF9F2761F3D6B08006E5BE8 /* TestScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDF9F2701F3D6B08006E5BE8 /* TestScene.sks */; };
-		BDF9F2771F3D6B08006E5BE8 /* TestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9F2711F3D6B08006E5BE8 /* TestScene.swift */; };
+		BDF9F2761F3D6B08006E5BE8 /* CaveScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDF9F2701F3D6B08006E5BE8 /* CaveScene.sks */; };
+		BDF9F2771F3D6B08006E5BE8 /* CaveScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9F2711F3D6B08006E5BE8 /* CaveScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,8 @@
 		BD078D421F7BA02E000EBA28 /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
 		BD078D441F7BA1A2000EBA28 /* WinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
 		BD0840F51F7CDAA800F2D297 /* CameraGO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraGO.swift; sourceTree = "<group>"; };
+		BD08E26E1F98F5E00089ECFF /* LoseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoseScene.sks; sourceTree = "<group>"; };
+		BD08E2701F98F5F00089ECFF /* LoseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoseScene.swift; sourceTree = "<group>"; };
 		BD2948611F6FAE580084B1A5 /* PlayerHpBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerHpBar.swift; sourceTree = "<group>"; };
 		BD41E6A31F778BB000F60CC2 /* MobHpBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobHpBar.swift; sourceTree = "<group>"; };
 		BD7273421F2217AF00DD7562 /* retrokid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retrokid.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +64,8 @@
 		BD72735F1F2217B000DD7562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBE84CC1F651BBB00C555A5 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
 		BDBE84D11F65253300C555A5 /* PlayerGO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerGO.swift; sourceTree = "<group>"; };
+		BDD0BF491F98E9C70097A565 /* MobCaveScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MobCaveScene.sks; sourceTree = "<group>"; };
+		BDD0BF4A1F98E9C70097A565 /* MobCaveScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobCaveScene.swift; sourceTree = "<group>"; };
 		BDD4B27C1F3671BE0014E8A4 /* Zar6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zar6.swift; sourceTree = "<group>"; };
 		BDD4B27D1F3671BE0014E8A4 /* Zar20.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zar20.swift; sourceTree = "<group>"; };
 		BDE163A71F6A536B003A5DBC /* JSONObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONObject.swift; sourceTree = "<group>"; };
@@ -66,8 +74,8 @@
 		BDE80E831F69624A004FF25F /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameData.swift; path = ../GameData.swift; sourceTree = "<group>"; };
 		BDEA6E261F65692100E968A8 /* MobGO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobGO.swift; sourceTree = "<group>"; };
 		BDF6A1CF1F665A440074EF38 /* RandomMovement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomMovement.swift; sourceTree = "<group>"; };
-		BDF9F2701F3D6B08006E5BE8 /* TestScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestScene.sks; sourceTree = "<group>"; };
-		BDF9F2711F3D6B08006E5BE8 /* TestScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestScene.swift; sourceTree = "<group>"; };
+		BDF9F2701F3D6B08006E5BE8 /* CaveScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CaveScene.sks; sourceTree = "<group>"; };
+		BDF9F2711F3D6B08006E5BE8 /* CaveScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaveScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,10 +201,14 @@
 		BDF9F26F1F3D6B08006E5BE8 /* scene */ = {
 			isa = PBXGroup;
 			children = (
-				BDF9F2701F3D6B08006E5BE8 /* TestScene.sks */,
-				BDF9F2711F3D6B08006E5BE8 /* TestScene.swift */,
+				BDD0BF491F98E9C70097A565 /* MobCaveScene.sks */,
+				BDD0BF4A1F98E9C70097A565 /* MobCaveScene.swift */,
+				BDF9F2701F3D6B08006E5BE8 /* CaveScene.sks */,
+				BDF9F2711F3D6B08006E5BE8 /* CaveScene.swift */,
 				BD078D421F7BA02E000EBA28 /* WinScene.sks */,
 				BD078D441F7BA1A2000EBA28 /* WinScene.swift */,
+				BD08E26E1F98F5E00089ECFF /* LoseScene.sks */,
+				BD08E2701F98F5F00089ECFF /* LoseScene.swift */,
 			);
 			path = scene;
 			sourceTree = "<group>";
@@ -287,9 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7273501F2217AF00DD7562 /* Assets.xcassets in Resources */,
-				BDF9F2761F3D6B08006E5BE8 /* TestScene.sks in Resources */,
+				BD08E26F1F98F5E00089ECFF /* LoseScene.sks in Resources */,
+				BDF9F2761F3D6B08006E5BE8 /* CaveScene.sks in Resources */,
 				BD7273531F2217AF00DD7562 /* Main.storyboard in Resources */,
 				BD078D431F7BA02E000EBA28 /* WinScene.sks in Resources */,
+				BDD0BF4B1F98E9C70097A565 /* MobCaveScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,13 +323,15 @@
 			files = (
 				BDBE84CD1F651BBB00C555A5 /* PlayerController.swift in Sources */,
 				BDF6A1D01F665A440074EF38 /* RandomMovement.swift in Sources */,
+				BDD0BF4C1F98E9C70097A565 /* MobCaveScene.swift in Sources */,
 				BDD4B27E1F3671BE0014E8A4 /* Zar6.swift in Sources */,
-				BDF9F2771F3D6B08006E5BE8 /* TestScene.swift in Sources */,
+				BDF9F2771F3D6B08006E5BE8 /* CaveScene.swift in Sources */,
 				BD41E6A41F778BB000F60CC2 /* MobHpBar.swift in Sources */,
 				BDD4B27F1F3671BE0014E8A4 /* Zar20.swift in Sources */,
 				BDE163A81F6A536B003A5DBC /* JSONObject.swift in Sources */,
 				BD078D451F7BA1A2000EBA28 /* WinScene.swift in Sources */,
 				BDE80E821F6929F6004FF25F /* Constants.swift in Sources */,
+				BD08E2711F98F5F00089ECFF /* LoseScene.swift in Sources */,
 				BDE80E841F69624A004FF25F /* GameData.swift in Sources */,
 				BDE80E801F691051004FF25F /* MobController.swift in Sources */,
 				BD72734E1F2217AF00DD7562 /* ViewController.swift in Sources */,

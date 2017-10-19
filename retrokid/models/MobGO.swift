@@ -40,8 +40,9 @@ class MobGO : SKSpriteNode
     
     func activate()
     {
-        self.randomizer.activate(withPosition: self.position, maxRange: 100, waitTime: 3)
+        
         self.setPositionAndSize()
+        self.randomizer.activate(withPosition: self.position, maxRange: 100, waitTime: 3)
         self.setPhysicsBody()
         self.setTextures()
         self.setAllTexturesToNearest()
@@ -69,7 +70,7 @@ class MobGO : SKSpriteNode
     func setPositionAndSize()
     {
         // #todo size ı yukarda belirtmek daha mantıklı
-        self.position = .zero
+        self.position = CGPoint(x: -20, y: -238)
         self.size = CGSize(width: 16, height: 12)
     }
     
