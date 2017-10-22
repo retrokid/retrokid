@@ -41,7 +41,7 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
     
     // MARK:- INIT
     
-    func playSound(nameOfAudioFileInAssetCatalog: String)
+    func playBG(nameOfAudioFileInAssetCatalog: String)
     {
         if let sound = NSDataAsset(name: nameOfAudioFileInAssetCatalog)
         {
@@ -55,6 +55,11 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
                 print("error initializing AVAudioPlayer")
             }
         }
+    }
+    
+    func stopBG()
+    {
+        avPlayer?.stop()
     }
     
     override func didMove(to view: SKView)
@@ -71,11 +76,13 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
         self.addGOsToControllers()
         
         self.camera = followCamera
+        self.playBG(nameOfAudioFileInAssetCatalog: k_sound_scene_cave_bg)
     }
     
     override func willMove(from view: SKView)
     {
         gameData.saveGameData()
+        self.stopBG()
     }
     
     // MARK:- KEYBOARD

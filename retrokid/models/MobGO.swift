@@ -36,6 +36,11 @@ class MobGO : SKSpriteNode
     var randomMoveTranslation : (action: SKAction, key: String) = (SKAction(), "randomMoveTranslation")
     var defeatAnimation : (action: SKAction, key: String) = (SKAction(), "defeatAnimation")
     
+    // MARK:-- SOUNDS
+    
+    var defeatSound : (action: SKAction, key: String) = (SKAction(), "defeatSound")
+    var takeDamageSound : (action: SKAction, key: String) = (SKAction(), "takeDamageSound")
+    
     // MARK:- INIT
     
     func activate()
@@ -47,6 +52,7 @@ class MobGO : SKSpriteNode
         self.setTextures()
         self.setAllTexturesToNearest()
         self.setAnimations()
+        self.setSounds()
         self.setName()
         self.hpBar.activate()
         self.setChildObjects()
@@ -55,6 +61,12 @@ class MobGO : SKSpriteNode
     }
     
     // MARK:- SETTERS
+    
+    func setSounds()
+    {
+        takeDamageSound.action = SKAction.playSoundFileNamed(k_sound_mob_damage, waitForCompletion: false)
+        defeatSound.action = SKAction.playSoundFileNamed(k_sound_mob_death, waitForCompletion: false)
+    }
     
     // #todo sil name kullanmıycam
     func setName()
@@ -159,6 +171,7 @@ class MobGO : SKSpriteNode
     {
         guard hp >= 0  else { return }
         self.run(takeDamageAnimation.action, withKey: takeDamageAnimation.key)
+        self.run(takeDamageSound.action, withKey: takeDamageSound.key)
         self.hp -= 1
         self.setHpBar(to: hp)
     }
@@ -171,6 +184,7 @@ class MobGO : SKSpriteNode
     
     func defeat()
     {
+        self.run(defeatSound.action, withKey: defeatSound.key)
         self.run(defeatAnimation.action) { 
             self.defeated = true
         }

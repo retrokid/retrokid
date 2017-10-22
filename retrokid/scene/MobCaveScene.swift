@@ -44,6 +44,27 @@ class MobCaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate
     
     // MARK:- INIT
     
+    func playBG(nameOfAudioFileInAssetCatalog: String)
+    {
+        if let sound = NSDataAsset(name: nameOfAudioFileInAssetCatalog)
+        {
+            do
+            {
+                try avPlayer = AVAudioPlayer(data: sound.data, fileTypeHint: AVFileTypeMPEGLayer3)
+                avPlayer!.play()
+            }
+            catch
+            {
+                print("error initializing AVAudioPlayer")
+            }
+        }
+    }
+    
+    func stopBG()
+    {
+        avPlayer?.stop()
+    }
+    
     func loadWinScene()
     {
         if let scene = GKScene(fileNamed: k_win_scene)
@@ -78,23 +99,7 @@ class MobCaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate
         }
     }
 
-    
-    func playSound(nameOfAudioFileInAssetCatalog: String)
-    {
-        if let sound = NSDataAsset(name: nameOfAudioFileInAssetCatalog)
-        {
-            do
-            {
-                try avPlayer = AVAudioPlayer(data: sound.data, fileTypeHint: AVFileTypeMPEGLayer3)
-                avPlayer!.play()
-            }
-            catch
-            {
-                print("error initializing AVAudioPlayer")
-            }
-        }
-    }
-    
+
     override func didMove(to view: SKView)
     {
         self.setGameData()
@@ -109,11 +114,13 @@ class MobCaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate
         self.addGOsToControllers()
         
         self.camera = followCamera
+        self.playBG(nameOfAudioFileInAssetCatalog: k_sound_scene_mob_cave_bg)
     }
     
     override func willMove(from view: SKView)
     {
         gameData.saveGameData()
+        self.stopBG()
     }
     
     // MARK:- KEYBOARD
@@ -223,7 +230,7 @@ class MobCaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate
         if gameData.currentGameData() == nil
         {
             let dict = ["player" : player,
-                        "testSceneMobs" : [MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO()]] as [String : Any]
+                        "testSceneMobs" : [MobGO(), MobGO(), MobGO(), MobGO(), MobGO(), MobGO()]] as [String : Any]
             
             gameData = GameData.init(withDictionary: dict)
             gameData.saveGameData()

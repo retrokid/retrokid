@@ -52,6 +52,11 @@ class PlayerGO : SKSpriteNode
     
     var takeDamageAnimation : (action: SKAction, key: String) = (SKAction(), "playerTakeDamageAnimation")
     
+    // MARK:-- SOUNDS
+    
+    var attackSwordSound : (action: SKAction, key: String) = (SKAction(), "attackSwordSound")
+    var takeDamageSound : (action: SKAction, key: String) = (SKAction(), "takeDamageSound")
+    
     // MARK:- INIT
     
     func activate()
@@ -59,6 +64,7 @@ class PlayerGO : SKSpriteNode
         self.setTextures()
         self.setAllTexturesToNearest()
         self.setAnimations()
+        self.setSounds()
         self.setPhysicsBody()
         self.setPositionAndSize()
         self.setName()
@@ -67,6 +73,12 @@ class PlayerGO : SKSpriteNode
     
     // MARK:- SETTERS
 
+    func setSounds()
+    {
+        attackSwordSound.action = SKAction.playSoundFileNamed(k_sound_player_attack_sword, waitForCompletion: false)
+        takeDamageSound.action = SKAction.playSoundFileNamed(k_sound_player_damage, waitForCompletion: false)
+    }
+    
     func setName()
     {
         self.name = "player"
@@ -332,24 +344,28 @@ class PlayerGO : SKSpriteNode
     func attackNorth()
     {
         self.run(attackNorthAnimation.action, withKey: attackNorthAnimation.key)
+        self.run(attackSwordSound.action, withKey: attackSwordSound.key)
         print("attack north")
     }
     
     func attackSouth()
     {
         self.run(attackSouthAnimation.action, withKey: attackSouthAnimation.key)
+        self.run(attackSwordSound.action, withKey: attackSwordSound.key)
         print("attack south")
     }
     
     func attackWest()
     {
         self.run(attackWestAnimation.action, withKey: attackWestAnimation.key)
+        self.run(attackSwordSound.action, withKey: attackSwordSound.key)
         print("attack west")
     }
     
     func attackEast()
     {
         self.run(attackEastAnimation.action, withKey: attackEastAnimation.key)
+        self.run(attackSwordSound.action, withKey: attackSwordSound.key)
         print("attack east")
     }
     
@@ -365,6 +381,7 @@ class PlayerGO : SKSpriteNode
     {
         guard hp >= 0  else { return }
         self.run(takeDamageAnimation.action, withKey: takeDamageAnimation.key)
+        self.run(takeDamageSound.action, withKey: takeDamageSound.key)
         self.hp -= 1
         self.setHpBar(to: hp)
     }

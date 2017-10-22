@@ -81,6 +81,14 @@ let k_effect_smoke_1_1 = "effect_smoke_1_1"
 let k_effect_smoke_1_2 = "effect_smoke_1_2"
 let k_effect_smoke_1_3 = "effect_smoke_1_3"
 
+// MARK:-- SOUNDS
+
+let k_sound_player_attack_sword = "player_attack_sword"
+let k_sound_player_damage = "player_damage"
+let k_sound_mob_damage = "mob_damage"
+let k_sound_mob_death = "mob_death"
+let k_sound_scene_cave_bg = "sound_scene_cave_bg"
+let k_sound_scene_mob_cave_bg = "sound_scene_mob_cave_bg"
 
 // MARK:-- MAP
 

@@ -14,6 +14,10 @@
 		BD08E2711F98F5F00089ECFF /* LoseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD08E2701F98F5F00089ECFF /* LoseScene.swift */; };
 		BD2948621F6FAE580084B1A5 /* PlayerHpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2948611F6FAE580084B1A5 /* PlayerHpBar.swift */; };
 		BD41E6A41F778BB000F60CC2 /* MobHpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41E6A31F778BB000F60CC2 /* MobHpBar.swift */; };
+		BD53C4F01F9D3E0E00C87BED /* mob_damage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD53C4EA1F9D3E0E00C87BED /* mob_damage.mp3 */; };
+		BD53C4F11F9D3E0E00C87BED /* mob_death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD53C4EB1F9D3E0E00C87BED /* mob_death.mp3 */; };
+		BD53C4F21F9D3E0E00C87BED /* player_attack_sword.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD53C4EC1F9D3E0E00C87BED /* player_attack_sword.mp3 */; };
+		BD53C4F31F9D3E0E00C87BED /* player_damage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD53C4ED1F9D3E0E00C87BED /* player_damage.mp3 */; };
 		BD7273461F2217AF00DD7562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7273451F2217AF00DD7562 /* AppDelegate.swift */; };
 		BD72734E1F2217AF00DD7562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72734D1F2217AF00DD7562 /* ViewController.swift */; };
 		BD7273501F2217AF00DD7562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD72734F1F2217AF00DD7562 /* Assets.xcassets */; };
@@ -53,6 +57,10 @@
 		BD08E2701F98F5F00089ECFF /* LoseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoseScene.swift; sourceTree = "<group>"; };
 		BD2948611F6FAE580084B1A5 /* PlayerHpBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerHpBar.swift; sourceTree = "<group>"; };
 		BD41E6A31F778BB000F60CC2 /* MobHpBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobHpBar.swift; sourceTree = "<group>"; };
+		BD53C4EA1F9D3E0E00C87BED /* mob_damage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mob_damage.mp3; sourceTree = "<group>"; };
+		BD53C4EB1F9D3E0E00C87BED /* mob_death.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mob_death.mp3; sourceTree = "<group>"; };
+		BD53C4EC1F9D3E0E00C87BED /* player_attack_sword.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = player_attack_sword.mp3; sourceTree = "<group>"; };
+		BD53C4ED1F9D3E0E00C87BED /* player_damage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = player_damage.mp3; sourceTree = "<group>"; };
 		BD7273421F2217AF00DD7562 /* retrokid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retrokid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7273451F2217AF00DD7562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD72734D1F2217AF00DD7562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +104,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD53C4E91F9D393E00C87BED /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BD53C4EA1F9D3E0E00C87BED /* mob_damage.mp3 */,
+				BD53C4EB1F9D3E0E00C87BED /* mob_death.mp3 */,
+				BD53C4EC1F9D3E0E00C87BED /* player_attack_sword.mp3 */,
+				BD53C4ED1F9D3E0E00C87BED /* player_damage.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		BD7273391F2217AF00DD7562 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +207,7 @@
 		BDF9F26B1F3D6A7A006E5BE8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BD53C4E91F9D393E00C87BED /* sounds */,
 				BD7273451F2217AF00DD7562 /* AppDelegate.swift */,
 				BD72734D1F2217AF00DD7562 /* ViewController.swift */,
 				BDE80E811F6929F6004FF25F /* Constants.swift */,
@@ -298,12 +318,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD53C4F01F9D3E0E00C87BED /* mob_damage.mp3 in Resources */,
 				BD7273501F2217AF00DD7562 /* Assets.xcassets in Resources */,
 				BD08E26F1F98F5E00089ECFF /* LoseScene.sks in Resources */,
 				BDF9F2761F3D6B08006E5BE8 /* CaveScene.sks in Resources */,
 				BD7273531F2217AF00DD7562 /* Main.storyboard in Resources */,
 				BD078D431F7BA02E000EBA28 /* WinScene.sks in Resources */,
 				BDD0BF4B1F98E9C70097A565 /* MobCaveScene.sks in Resources */,
+				BD53C4F31F9D3E0E00C87BED /* player_damage.mp3 in Resources */,
+				BD53C4F11F9D3E0E00C87BED /* mob_death.mp3 in Resources */,
+				BD53C4F21F9D3E0E00C87BED /* player_attack_sword.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,13 +493,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = U5Y7Y39J6K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = retrokid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.efeertugrul.retrokid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -484,13 +510,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = U5Y7Y39J6K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = retrokid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.efeertugrul.retrokid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
