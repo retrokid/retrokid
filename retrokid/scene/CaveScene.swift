@@ -48,6 +48,7 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
             do
             {
                 try avPlayer = AVAudioPlayer(data: sound.data, fileTypeHint: AVFileTypeMPEGLayer3)
+                avPlayer?.numberOfLoops = 10
                 avPlayer!.play()
             }
             catch
