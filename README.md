@@ -5,6 +5,8 @@
 Written in Swift and SpriteKit3.
 This game was just a prototype to learn spritekit 3 library.
 
+Code is a mess! Compile at your own risk...
+
 |Keyboard Controls|
 |-----------------|
 |MOVEMENT:  W,A,S,D buttons|
