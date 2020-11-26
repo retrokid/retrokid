@@ -5,8 +5,6 @@
 Written in Swift and SpriteKit3.
 This game was just a prototype to learn spritekit 3 library.
 
-You can do whatever you want with the code.
-
 But about the assets.
 
 Tile map assets were from www.kenney.nl.
@@ -18,3 +16,7 @@ I don't remember where did i download other assets so i don't know their license
 |-----------------|
 |MOVEMENT : W,A,S,D buttons|
 |ATTACK : K button|
+
+# License
+
+Anyone can download, run, compile, change the code but cannot distribute in any form.
