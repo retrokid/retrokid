@@ -47,7 +47,7 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
         {
             do
             {
-                try avPlayer = AVAudioPlayer(data: sound.data, fileTypeHint: AVFileTypeMPEGLayer3)
+                try avPlayer = AVAudioPlayer(data: sound.data, fileTypeHint: "mp3")
                 avPlayer?.numberOfLoops = 10
                 avPlayer!.play()
             }
@@ -105,10 +105,10 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
         self.playerController.updatePlayer()
         self.mobController.refresh()
         
-        if (gameData.testSceneMobs?.isEmpty)!
-        {
-            loadWinScene()
-        }
+//        if (gameData.testSceneMobs?.isEmpty)!
+//        {
+//            loadWinScene()
+//        }
     }
     
     func didBegin(_ contact: SKPhysicsContact)
@@ -131,7 +131,7 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
         self.sceneCave1 = childNode(withName: "scene-cave-1") as! SKSpriteNode
         self.sceneCave2 = childNode(withName: "scene-cave-2") as! SKSpriteNode
         
-        self.mobs = gameData.testSceneMobs
+        self.mobs = [MobGO(),MobGO()]
         self.player = childNode(withName: "player") as! PlayerGO
         self.followCamera = childNode(withName: "//camera") as! SKCameraNode
     }
@@ -157,7 +157,7 @@ class CaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate, M
     
     func addGOsToControllers()
     {
-        self.mobController.addAllMobs(mobs: mobs!)
+        self.mobController.addAllMobs(mobs: [MobGO()])
     }
     
     func setGameData()

@@ -56,7 +56,7 @@ class MobGO : SKSpriteNode
         self.setName()
         self.hpBar.activate()
         self.setChildObjects()
-        // #todo bunun yeri controller
+        
         self.run(.repeatForever(moveNormalAnimation.action), withKey: moveNormalAnimation.key)
     }
     

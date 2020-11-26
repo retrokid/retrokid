@@ -37,10 +37,19 @@ class GameData : JSONObject, NSCoding
     func saveGameData()
     {
         let prefs = UserDefaults.standard
-        let myEncodedObject : Data = NSKeyedArchiver.archivedData(withRootObject: self)
+        // let myEncodedObject : Data = NSKeyedArchiver.archivedData(withRootObject: self)
+        do
+        {
+            let myEncodedObject = try NSKeyedArchiver.archivedData(withRootObject: self, requiringSecureCoding: false)
+            prefs.setValue(myEncodedObject, forKey: DATA_KEY)
+            prefs.synchronize()
+        }
+        catch
+        {
+            
+        }
         
-        prefs.setValue(myEncodedObject, forKey: DATA_KEY)
-        prefs.synchronize()
+
     }
     
     func removeGameData()
@@ -60,9 +69,16 @@ class GameData : JSONObject, NSCoding
             return nil
         }
         
-        let data : GameData = NSKeyedUnarchiver.unarchiveObject(with: myEncodedObject!) as! GameData
-        
-        return data
+        do
+        {
+            let data = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(myEncodedObject!) as! GameData
+            return data
+        }
+        catch
+        {
+            return nil
+        }
+            
     }
     
     public func dictionaryRepresentation() -> [String : Any?]

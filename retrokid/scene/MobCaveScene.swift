@@ -50,7 +50,7 @@ class MobCaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate
         {
             do
             {
-                try avPlayer = AVAudioPlayer(data: sound.data, fileTypeHint: AVFileTypeMPEGLayer3)
+                try avPlayer = AVAudioPlayer(data: sound.data, fileTypeHint: "mp3")
                 avPlayer!.play()
             }
             catch
@@ -142,10 +142,10 @@ class MobCaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate
         self.playerController.updatePlayer()
         self.mobController.refresh()
         self.updatePlayerHpUI()
-        if (gameData.testSceneMobs?.isEmpty)!
-        {
-            loadWinScene()
-        }
+//        if (gameData.testSceneMobs?.isEmpty)!
+//        {
+//            loadWinScene()
+//        }
     }
     
     func updatePlayerHpUI()
@@ -193,7 +193,7 @@ class MobCaveScene : SKScene, SKPhysicsContactDelegate, PlayerControllerDelegate
         self.sceneCave2 = childNode(withName: "scene-cave-2") as! SKSpriteNode
         self.playerHpBar = childNode(withName: "//top-left-menu") as! SKSpriteNode
         
-        self.mobs = gameData.testSceneMobs
+        self.mobs = [MobGO(), MobGO()]
         self.player = childNode(withName: "player") as! PlayerGO
         self.followCamera = childNode(withName: "//camera") as! SKCameraNode
     }
