@@ -14,8 +14,8 @@ I don't remember where did i download other assets so i don't know their license
 
 |Keyboard Controls|
 |-----------------|
-|MOVEMENT :W,A,S,D buttons|
-|ATTACK :  K button       |
+|MOVEMENT:  W,A,S,D buttons|
+|ATTACK:    K button       |
 
 ### Code License
 
