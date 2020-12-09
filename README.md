@@ -20,14 +20,11 @@ It was free of use when i downloaded them, but you should check their license.
 
 Other assets are free IG Maker assets. That engine is no longer exists. But there might be some copyright issues.
 
-## License
+## Copyright © 2017 Efe Ertugrul
 
-Created by efe ertugrul.
-
-Copyright © 2017 efe ertugrul.
-
+```
+Created by Efe Ertugrul.
 All rights reserved.
-
 You can download, run, compile, change the code.
-
 Do not redistribute in any form.
+```
