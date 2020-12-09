@@ -18,7 +18,7 @@ Code is a mess! Compile at your own risk...
 Tile map assets were from www.kenney.nl.
 It was free of use when i downloaded them, but you should check their license.
 
-I don't remember where did i download other assets so i don't know their license.
+Other assets are free IG Maker assets. That engine is no longer exists. But there might be some copyright issues.
 
 ## License
 
