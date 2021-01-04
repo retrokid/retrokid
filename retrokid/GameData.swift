@@ -36,18 +36,18 @@ class GameData : JSONObject, NSCoding
 
     func saveGameData()
     {
-        let prefs = UserDefaults.standard
-        // let myEncodedObject : Data = NSKeyedArchiver.archivedData(withRootObject: self)
-        do
-        {
-            let myEncodedObject = try NSKeyedArchiver.archivedData(withRootObject: self, requiringSecureCoding: false)
-            prefs.setValue(myEncodedObject, forKey: DATA_KEY)
-            prefs.synchronize()
-        }
-        catch
-        {
-            
-        }
+//        let prefs = UserDefaults.standard
+//        // let myEncodedObject : Data = NSKeyedArchiver.archivedData(withRootObject: self)
+//        do
+//        {
+//            let myEncodedObject = try NSKeyedArchiver.archivedData(withRootObject: self, requiringSecureCoding: false)
+//            prefs.setValue(myEncodedObject, forKey: DATA_KEY)
+//            prefs.synchronize()
+//        }
+//        catch
+//        {
+//            
+//        }
         
 
     }
